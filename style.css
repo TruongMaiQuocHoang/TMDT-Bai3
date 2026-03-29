@@ -1,0 +1,290 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* CONTAINER */
+.frame-trang-ch {
+  width: 100%;
+  max-width: 1200px; /* giảm từ 1440 -> giống nhìn Figma hơn */
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+  background-color: #90e0ef;
+}
+
+.ng-dn {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding: 10px 40px;
+  background-color: #f6fcff;
+  display: flex;
+  align-items: center;
+}
+
+.text-wrapper {
+  color: #03045e;
+  font-size: 16px;
+}
+
+/* BANNER */
+.banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* FILTER */
+.list-type-SP {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px;
+  background-color: #caf0f8;
+}
+
+.item-type-SP,
+.div-wrapper,
+.item-type-SP-3 {
+  width: 180px;
+  padding: 10px;
+  border: 1px solid #03045e;
+  background: white;
+  cursor: pointer;
+}
+
+.item-type-SP {
+  background-color: #00b4d8;
+}
+
+.text-wrapper-2 {
+  color: #caf0f8;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text-wrapper-3 {
+  color: #03045e;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.about .text {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.span-wrapper {
+  font-size: 32px;
+  font-weight: bold;
+  color: #03045e;
+}
+
+.about-button {
+  margin-top: 20px;
+  background-color: #00b4d8;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.nh-video-gii-thiu {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* SECTION TITLE */
+.text-wrapper-4 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #03045e;
+  margin: 20px 0;
+}
+
+/* PRODUCT LIST */
+.list-type-SP-2,
+.list-SP {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* PRODUCT CARD */
+.type-SP {
+  width: 100%;
+  aspect-ratio: 3/4;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #fff 0%, #90e0ef 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.type-SP img {
+  width: 100%;
+  max-width: 160px;
+  height: 140px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-wrapper-5 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* NEW PRODUCT FILTER */
+.list-type-SP-3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #caf0f8;
+  padding: 10px;
+}
+
+/* REVIEW */
+.nh-gi-khch-hng {
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.list-nh-gi {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  width: 100%;
+  background-color: #90e0ef;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.text-3 {
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.image-2 {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+/* NEWS */
+.list-news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.news {
+  width: 300px;
+  background-color: #caf0f8;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.image-2 {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.thng-tin {
+  padding: 15px;
+  background: white;
+}
+
+.t-n-news {
+  font-weight: bold;
+  color: #03045e;
+}
+
+.n-i-dung {
+  font-size: 14px;
+  color: #03045e;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .type-SP {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .type-SP {
+    width: 100%;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+}
+.vector {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.vector-2 {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.star {
+  width: 20px;
+  height: 20px;
+}
+.nh-gi-khch-hng {
+  position: relative;
+  overflow: hidden;
+}
+.element-star-bar {
+  display: flex;
+  flex-direction: row; /* mặc định cũng là row nhưng ghi rõ cho chắc */
+  gap: 5px; /* khoảng cách giữa các sao */
+  align-items: center;
+}
