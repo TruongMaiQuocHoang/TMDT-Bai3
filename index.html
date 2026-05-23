@@ -9,16 +9,57 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  </head>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Store",
+          "name": "Tiệm Giày Cũ Sài Gòn 2hand",
+          "image": "img/logo-giaybongrovn.jpg",
+          "description": "Chuyên bán giày bóng rổ 2hand chính hãng giá thành sinh viên tại khu vực Sài Gòn.",
+          "paymentAccepted": ["Cash", "QR"],
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hồ Chí Minh",
+            "addressCountry": "VN"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Cửa hàng chấp nhận hình thức thanh toán nào?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chúng tôi hiện hỗ trợ hai hình thức thanh toán chính là Cash (Tiền mặt) và quét mã QR. Khách hàng có thể dễ dàng thanh toán tại cửa hàng hoặc áp dụng khi nhận hàng tận nơi."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Giày bóng rổ 2hand của shop có chính hãng không?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Toàn bộ sản phẩm tại Tiệm Giày Cũ Sài Gòn 2hand đều là hàng chính hãng 100%. Giày được tuyển chọn kỹ lưỡng, đảm bảo độ bám của vân đế và form dáng chuẩn."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    </head>
   <body>
     <main class="frame-trang-ch">
-      <!-- Header Navigation -->
       <header class="header">
         <nav class="ng-dn" aria-label="Điều hướng chính">
           <span class="text-wrapper">Trang chủ</span>
         </nav>
       </header>
-      <!-- Banner & Product Type Filter -->
+      
       <section class="banner-slide" aria-label="Banner và danh mục sản phẩm">
         <img class="banner" src="img/logo-giaybongrovn.jpg" alt="Banner cửa hàng giày bóng rổ" />
         <nav class="list-type-SP" aria-label="Lọc loại sản phẩm">
@@ -38,7 +79,7 @@
           <div class="item-type-SP-2" aria-hidden="true"></div>
         </nav>
       </section>
-      <!-- About Section -->
+
       <section class="about" aria-label="Giới thiệu cửa hàng">
         <div class="text">
           <div class="flexcontainer">
@@ -57,7 +98,7 @@
         </div>
         <img class="nh-video-gii-thiu" src="img/B-pc.jpg" alt="Video giới thiệu cửa hàng" />
       </section>
-      <!-- Product Categories Section -->
+
       <section class="div-2" aria-labelledby="danh-muc-san-pham">
         <h2 class="text-wrapper-4" id="danh-muc-san-pham">DANH MỤC SẢN PHẨM</h2>
         <div class="list-type-SP-2" role="list">
@@ -87,7 +128,7 @@
           </div>
         </div>
       </section>
-      <!-- New Products Section -->
+
       <section class="div-2" aria-labelledby="san-pham-moi">
         <h2 class="text-wrapper-4" id="san-pham-moi">SẢN PHẨM MỚI</h2>
         <nav class="list-type-SP-3" aria-label="Lọc sản phẩm mới">
@@ -149,7 +190,7 @@
           </div>
         </div>
       </section>
-      <!-- Customer Reviews Section -->
+
       <section class="nh-gi-khch-hng" aria-labelledby="danh-gia-khach-hang">
         <div class="text-2">
           <div class="flexcontainer-2">
@@ -184,7 +225,27 @@
           <img class="img" src="img/Screenshot_29-3-2026_194829_www.facebook.com.jpeg" alt="Ảnh khách hàng Quốc Hoàng" />
         </div>
       </section>
-      <!-- News Section -->
+
+      <section class="div-2" aria-labelledby="cau-hoi-thuong-gap">
+        <h2 class="text-wrapper-4" id="cau-hoi-thuong-gap">CÂU HỎI THƯỜNG GẶP</h2>
+        <div style="background-color: #caf0f8; border-radius: 20px; padding: 30px; text-align: left; max-width: 800px; margin: 0 auto;">
+          
+          <article style="margin-bottom: 25px;">
+            <h3 style="color: #03045e; font-size: 18px; font-weight: bold; margin-bottom: 10px;">Cửa hàng chấp nhận hình thức thanh toán nào?</h3>
+            <p style="color: #03045e; font-size: 16px; line-height: 1.6;">
+              Chúng tôi hiện hỗ trợ hai hình thức thanh toán chính là <strong>Cash (Tiền mặt)</strong> và quét mã <strong>QR</strong>. Khách hàng có thể dễ dàng thanh toán tại quầy thu ngân hoặc áp dụng khi nhận hàng (COD) tận nơi.
+            </p>
+          </article>
+
+          <article>
+            <h3 style="color: #03045e; font-size: 18px; font-weight: bold; margin-bottom: 10px;">Giày bóng rổ 2hand của shop có chính hãng không?</h3>
+            <p style="color: #03045e; font-size: 16px; line-height: 1.6;">
+              Toàn bộ sản phẩm tại Tiệm Giày Cũ Sài Gòn 2hand đều là hàng chính hãng 100%. Giày được kiểm định và tuyển chọn kỹ lưỡng, cam kết đảm bảo độ bám của vân đế để bạn yên tâm thi đấu.
+            </p>
+          </article>
+
+        </div>
+      </section>
       <section class="div-2" aria-labelledby="tin-tuc">
         <h2 class="text-wrapper-4" id="tin-tuc">TIN TỨC</h2>
         <div class="list-news">
